@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "dashboard">
+        <h1>Welcome!</h1>
+
+        <label for ="city">City</label>
+        <input type="text" id="city" placeholder="Enter City Name">
+        <button onclick="getWeather()" id = "search">Search</button>
+
+        <h3>Temperature</h3>
+        <p id="temp"></p>
+
+        <h3>Humidity</h3>
+        <p id="humid"></p>
+
+        <h3>Wind</h3>
+        <p id="windy"></p>
+
+        <h3>Condition</h3>
+        <p id="cond"></p>
+
+    </div>
+<script src = "dash.js"></script>
+</body>
+</html>
